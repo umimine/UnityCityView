@@ -20,7 +20,7 @@ public class Hotel : MonoBehaviour
         
     }
 	public void showlabel(){
-		label.GetComponent<TextMeshPro>().text = GetLabel().Substring(0, 20);
+		label.GetComponent<TextMeshPro>().text = GetLabel();
 	}
 	
 	public string GetLabel(){
